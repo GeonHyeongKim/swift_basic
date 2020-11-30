@@ -1,6 +1,6 @@
 # TabBar Controller : UITabBar와 UITabItem으로 구성
 
-탭 바에서의 접근은 모두 Controller통해 접근함
+## 1. 탭 바에서의 접근은 모두 Controller통해 접근함
 - tabBar : tabBarController.tabBar. (barTintColor)
     - backgroundImage : 탭 바 전체에 적용되는 배경이미지
     - selectionIndicatorImage : 현재 이 탭이 선택되어 있음을 알려주는 이미지
@@ -12,3 +12,7 @@
  ※ 네비게이션 컨트롤러는 다름
   - bar에 접근 : navigationController -> navigationBar
   - item에 접근 : navigationItem( 종류 : titleView, leftBarButton, rightBarButton)
+  
+  ## 2. 탭바 커스텀 - storyboard 사용 + 프로그래밍적 접근
+  ### 1) storyboard
+  ![캡쳐1](https://user-images.githubusercontent.com/48436020/100585429-ee09d280-3330-11eb-8db0-1c1db1a3f9b0.png)
