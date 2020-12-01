@@ -18,10 +18,8 @@
 ![Relationship Segue - view controllers 선택하여 연결](https://user-images.githubusercontent.com/48436020/100585429-ee09d280-3330-11eb-8db0-1c1db1a3f9b0.png)
 
 ### 2) 탭 바 생성
-#### tabBar 화면 전환방식
-![tabBar 화면 전환방식 - 첫 번쨰](https://user-images.githubusercontent.com/48436020/100686891-961bac00-33c2-11eb-9395-2b75cc953d99.png){: width="659"}
-![tabBar 화면 전환방식 - 두 번쨰](https://user-images.githubusercontent.com/48436020/100686900-987e0600-33c2-11eb-8e9d-bd821118950c.png){: width="659"}
-![tabBar 화면 전환방식 - 세 번쨰](https://user-images.githubusercontent.com/48436020/100686905-99af3300-33c2-11eb-918d-2442491cdb59.png){: width="659"}
+#### [tabBar 화면 전환방식]
+![tabBar 화면 전환방식 문제](https://user-images.githubusercontent.com/48436020/100687945-97e66f00-33c4-11eb-9d75-1c7e6b26507e.png)
 
 ```swift
 
