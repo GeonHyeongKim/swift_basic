@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
     fileprivate func setup() {
         let title = UILabel(frame: CGRect(x: 0, y: 100, width: 100, height: 30))
         
-        title.text = "두번째 탭"
+        title.text = "두 번째 탭"
         title.textColor = UIColor.red
         title.textAlignment = .center // 레이블 내에서 중앙 정렬
         title.font = UIFont.boldSystemFont(ofSize: 14)

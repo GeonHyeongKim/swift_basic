@@ -13,6 +13,13 @@
   - bar에 접근 : navigationController -> navigationBar
   - item에 접근 : navigationItem( 종류 : titleView, leftBarButton, rightBarButton)
   
-  ## 2. 탭바 커스텀 - storyboard 사용 + 프로그래밍적 접근
-  ### 1) storyboard
-  ![캡쳐1](https://user-images.githubusercontent.com/48436020/100585429-ee09d280-3330-11eb-8db0-1c1db1a3f9b0.png)
+## 2. 탭바 커스텀 - storyboard 사용 + 프로그래밍적 접근
+### 1) storyboard
+  ![Relationship Segue - view controllers 선택하여 연결](https://user-images.githubusercontent.com/48436020/100585429-ee09d280-3330-11eb-8db0-1c1db1a3f9b0.png)
+
+### 2) 탭 바 생성
+```swift
+
+
+```
+
