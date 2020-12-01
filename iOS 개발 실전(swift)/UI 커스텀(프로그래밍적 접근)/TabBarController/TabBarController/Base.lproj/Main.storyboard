@@ -38,9 +38,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jt2-Oa-FmT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-230" y="646"/>
+            <point key="canvasLocation" x="-239" y="646"/>
         </scene>
-        <!--Item 1-->
+        <!--item1-->
         <scene sceneID="k0U-1N-wCs">
             <objects>
                 <viewController id="SA5-bX-PC4" customClass="ViewController" customModule="TabBarController" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,11 +50,11 @@
                         <viewLayoutGuide key="safeArea" id="3EU-Zc-wwX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="K7Z-ku-7Id"/>
+                    <tabBarItem key="tabBarItem" title="item1" id="K7Z-ku-7Id"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ptp-G8-sLu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1971" y="636"/>
+            <point key="canvasLocation" x="-1974" y="646"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="T3P-Gy-1jD">

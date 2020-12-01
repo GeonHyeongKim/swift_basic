@@ -12,6 +12,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        self.tabBarItem.image = UIImage(named: "file-tree.png")
+        self.tabBarItem.title = "file"
+        
         setup()
     }
     

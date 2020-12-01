@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        self.tabBarItem.image = UIImage(named: "calendar.png")
+        self.tabBarItem.title = "Calendar"
+        
         setup()
     }
     
