@@ -86,3 +86,10 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 - 앱 실행시 모두 초기화가 가능하도록 SceneDelegate에 작성할 것 
 - 탭바의 이미지 아이콘 사이즈는 apple에서 정해져 있음 (너무 클시 튀어나오는 경우 발생)
 
+### 3) 탭바 아이템 접근하기
+ - 인덱스로 접근 : self.tabBarController?.tabBar.items?[0]
+ ```swift
+var firstItem = self.tabBarController?.tabBar.items?[0]
+    firstItem?.image = UIImage(named: "calendar.png")
+    firstItem?.title = "calendar"
+ ```
