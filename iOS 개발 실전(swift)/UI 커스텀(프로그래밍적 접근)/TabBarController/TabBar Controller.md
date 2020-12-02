@@ -82,7 +82,7 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
     
     ...(중략)...
 ```
-![tabBar 화면 전환방식 문제 해결 - SceneDelegate](https://user-images.githubusercontent.com/48436020/100831829-dd309c80-34a9-11eb-8010-ce868ca894b0.png)
+<img src = "SceneDelegate](https://user-images.githubusercontent.com/48436020/100831829-dd309c80-34a9-11eb-8010-ce868ca894b0.png" width="400px">
 - 앱 실행시 모두 초기화가 가능하도록 SceneDelegate에 작성할 것 
 - 탭바의 이미지 아이콘 사이즈는 apple에서 정해져 있음 (너무 클시 튀어나오는 경우 발생)
 
