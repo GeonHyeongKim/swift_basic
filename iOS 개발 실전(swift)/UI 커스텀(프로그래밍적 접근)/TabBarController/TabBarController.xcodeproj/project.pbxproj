@@ -22,6 +22,9 @@
 		57A1EFB12575D22A0098EE6E /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A1EFA42575D2290098EE6E /* twitter@2x.png */; };
 		57A1EFB22575D22A0098EE6E /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A1EFA52575D2290098EE6E /* facebook@2x.png */; };
 		57A1EFB32575D22A0098EE6E /* rss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A1EFA62575D22A0098EE6E /* rss@2x.png */; };
+		57A567752592311A008568DB /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A567722592311A008568DB /* SideBarViewController.swift */; };
+		57A567762592311A008568DB /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A567732592311A008568DB /* RevealViewController.swift */; };
+		57A567772592311A008568DB /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A567742592311A008568DB /* FrontViewController.swift */; };
 		57DE6FFB2574B15F0047C09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE6FFA2574B15F0047C09C /* AppDelegate.swift */; };
 		57DE6FFD2574B15F0047C09C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE6FFC2574B15F0047C09C /* SceneDelegate.swift */; };
 		57DE6FFF2574B15F0047C09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE6FFE2574B15F0047C09C /* ViewController.swift */; };
@@ -66,6 +69,9 @@
 		57A1EFA42575D2290098EE6E /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 		57A1EFA52575D2290098EE6E /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
 		57A1EFA62575D22A0098EE6E /* rss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rss@2x.png"; sourceTree = "<group>"; };
+		57A567722592311A008568DB /* SideBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
+		57A567732592311A008568DB /* RevealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		57A567742592311A008568DB /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
 		57DE6FF72574B15F0047C09C /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DE6FFA2574B15F0047C09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57DE6FFC2574B15F0047C09C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 			children = (
 				57DE6FFE2574B15F0047C09C /* ViewController.swift */,
 				57A1EF682574E24A0098EE6E /* SecondViewController.swift */,
+				57A567742592311A008568DB /* FrontViewController.swift */,
+				57A567732592311A008568DB /* RevealViewController.swift */,
+				57A567722592311A008568DB /* SideBarViewController.swift */,
 				57A1EF702574E2520098EE6E /* ThirdViewController.swift */,
 			);
 			path = ViewController;
@@ -335,8 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A567772592311A008568DB /* FrontViewController.swift in Sources */,
 				57DE6FFF2574B15F0047C09C /* ViewController.swift in Sources */,
 				57DE70052574B15F0047C09C /* TabBarController.xcdatamodeld in Sources */,
+				57A567752592311A008568DB /* SideBarViewController.swift in Sources */,
+				57A567762592311A008568DB /* RevealViewController.swift in Sources */,
 				57DE6FFB2574B15F0047C09C /* AppDelegate.swift in Sources */,
 				57A1EF692574E24A0098EE6E /* SecondViewController.swift in Sources */,
 				57A1EF712574E2520098EE6E /* ThirdViewController.swift in Sources */,
